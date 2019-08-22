@@ -3,17 +3,20 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: #b37feb;
+  background-image: radial-gradient(#d3adf7, #b37feb, #9254de);
   width: 100px;
   height: 100px;
   border-radius: 45%;
   transition: all 0.2s ease-in-out;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.16), 3px 6px rgba(0, 0, 0, 0.16);
 
   &:hover {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     z-index: 4;
     cursor: pointer;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.99), 0 40px 60px,
+      3px 6px rgba(0, 0, 0, 0.99), 0 40px 60px;
     .externalLink {
       font-size: 2em;
     }
