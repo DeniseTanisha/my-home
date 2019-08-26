@@ -1,0 +1,43 @@
+.myStory {
+  border-top: solid 4px rgb(134, 167, 208);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.toppage {
+  background-color: rgb(134, 167, 208);
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 15px 15px 10px rgb(134, 167, 208);
+}
+
+.logo {
+  padding-top: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.developer {
+  flex-wrap: wrap;
+  font-family: "Arimo", sans-serif;
+  font-size: 6rem;
+  font-weight: 800;
+  color: rgba(85, 123, 173, 0.76);
+}
+
+.bottompage {
+  z-index: -2;
+  height: 37vh;
+  width: 100vw;
+  background-image: linear-gradient(
+    to right,
+    rgb(134, 167, 208),
+    rgb(174, 205, 243)
+  );
+}
