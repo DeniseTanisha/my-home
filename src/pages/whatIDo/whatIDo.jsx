@@ -15,7 +15,9 @@ class whatIDo extends Component {
           </section>
         </div>
 
-        <div className={styles.bottompage}></div>
+        <div className={styles.bottompage}>
+          <card className={styles.web}>Web developer</card>
+        </div>
       </div>
     );
   }
