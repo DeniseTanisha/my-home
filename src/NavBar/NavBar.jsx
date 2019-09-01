@@ -23,17 +23,17 @@ class NavBar extends Component {
             </Link>
           </li>
           <li>
-            <Link className={styles.Links} to="whatIDo">
+            <Link className={styles.Links} to="/whatIDo">
               What I Do
             </Link>
           </li>
           <li>
-            <Link className={styles.Links} to="myStory">
+            <Link className={styles.Links} to="/myStory">
               My Story
             </Link>
           </li>
           <li>
-            <Link className={styles.Links} to="getInTouch">
+            <Link className={styles.Links} to="/getInTouch">
               Get In Touch
             </Link>
           </li>
