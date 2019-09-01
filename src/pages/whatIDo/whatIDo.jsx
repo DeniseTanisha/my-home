@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "@reach/router";
 import NavBar from "../../NavBar";
 import styles from "./whatIDo.module.scss";
+import hedira from "../../assets/hedira.png";
 
 class whatIDo extends Component {
   state = {};
@@ -16,7 +17,10 @@ class whatIDo extends Component {
         </div>
 
         <div className={styles.bottompage}>
-          <card className={styles.web}>Web developer</card>
+          <article>
+            <img src={hedira} />
+          </article>
+          {/* <card className={styles.web}>Web developer</card> */}
         </div>
       </div>
     );

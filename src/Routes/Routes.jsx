@@ -10,9 +10,9 @@ class Routes extends Component {
     return (
       <Router>
         <Home path="/" />
-        <GetInTouch path="/getInTouch" />
-        <MyStory path="/myStory" />
-        <WhatIDo path="/whatIDo" />
+        <GetInTouch path="getInTouch" />
+        <MyStory path="myStory" />
+        <WhatIDo path="whatIDo" />
       </Router>
     );
   }
