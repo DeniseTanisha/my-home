@@ -14,7 +14,11 @@ class NavBar extends Component {
       <section className={styles.NavBar}>
         <div className={styles.leftlogo}>
           <img className={styles.elephant} src={ele} />
-          <p>Denise Stubbs </p>
+          <p>
+            <Link className={styles.Links} to="/">
+              Denise Stubbs{" "}
+            </Link>
+          </p>
         </div>
         <ul className={styles.NavItems}>
           <li>

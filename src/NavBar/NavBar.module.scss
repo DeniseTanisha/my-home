@@ -46,9 +46,11 @@
       align-items: baseline;
       margin-top: 3px;
       font-family: "Arimo", sans-serif;
-      color: rgb(237, 168, 10);
       font-weight: 800;
       font-size: 1.3em;
+      a {
+        color: rgb(237, 168, 10);
+      }
     }
 
     .elephant {
