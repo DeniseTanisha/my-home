@@ -1,113 +1,162 @@
-.home {
-  width: 100%;
-  height: 100%;
-  border-top: solid 4px rgb(102, 187, 198);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+// .home {
+//   border-top: solid 4px rgb(102, 187, 198);
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+// }
 
-.toppage {
-  background-color: rgb(102, 187, 198);
-  height: 30vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 15px 15px 10px rgb(102, 187, 198);
-}
+// .toppage {
+//   z-index: -1;
+//   background-color: rgb(102, 187, 198);
+//   height: 40vh;
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   box-shadow: 15px 15px 10px rgb(102, 187, 198);
+// }
 
-.logo {
-  padding-top: 7rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-}
+// .logo {
+//   margin-top: 0;
+//   padding-top: 0;
+//   padding-bottom: 4.2em;
+//   z-index: 1;
+//   display: flex;
+//   flex-wrap: wrap;
+//   align-items: baseline;
+//   position: absolute;
+// }
 
-.title {
-  font-family: "Arimo", sans-serif;
-  font-size: 1em;
-  color: white;
-  letter-spacing: 0.1em;
-}
+// .title {
+//   font-family: "Arimo", sans-serif;
+//   font-size: 2rem;
+//   color: rgba(255, 255, 255, 0.623);
+//   letter-spacing: 0.1em;
+// }
 
-.ele {
-  height: 4rem;
-}
+// .ele {
+//   height: 4rem;
+// }
 
-.developer {
-  flex-wrap: wrap;
-  font-family: "Arimo", sans-serif;
-  font-size: 2em;
-  font-weight: 800;
-  color: rgb(70, 152, 165);
-}
+// .developer {
+//   z-index: -1;
+//   flex-wrap: wrap;
+//   font-family: "Arimo", sans-serif;
+//   margin-top: 15vh;
+//   font-size: 3em;
+//   font-weight: 800;
+//   color: rgba(50, 152, 168, 0.383);
+//   position: absolute;
+// }
 
-.bottompage {
-  z-index: -2;
-  height: auto;
-  width: 100%;
-  background-image: linear-gradient(
-    to right,
-    rgb(102, 187, 198),
-    rgb(133, 226, 238)
-  );
-}
+// .bio {
+//   z-index: 2;
+//   display: grid;
+//   grid-template-areas: " . portraitbox intro . ";
+//   grid-template-columns: 1fr 1fr 1fr 1fr;
+//   justify-content: baseline;
+// }
+// .portraitbox {
+//   grid-area: portraitbox;
+//   margin-top: 44vh;
+//   z-index: 2;
+//   height: 6.5em;
+//   width: 6em;
+//   border: 5px solid rgb(237, 168, 10);
+//   border-radius: 10px;
+// }
+// .portrait {
+//   z-index: 2;
+//   height: 6.5em;
+//   width: 6em;
+// }
 
-.words {
-  flex-wrap: wrap;
-  font-family: "Arimo", sans-serif;
-  font-size: 3rem;
-  color: white;
-  letter-spacing: 0em;
-  display: flex;
-  justify-content: space-around;
-  z-index: 2;
-  &:hover {
-    color: rgb(237, 168, 10);
-  }
-}
+// .intro {
+//   border-left: 5px solid rgb(237, 168, 10);
+//   padding-left: 4px;
+//   display: flex;
+//   flex-wrap: wrap;
+//   grid-area: intro;
+//   margin-top: 55vh;
+//   z-index: 2;
+//   color: rgb(187, 132, 5);
+//   font-weight: 800;
+//   font-size: 1.3em;
+//   width: 45vw;
+// }
+// .bottompage {
+//   z-index: -2;
+//   height: 48vh;
+//   width: 100%;
+//   background-image: linear-gradient(
+//     to right,
+//     rgb(102, 187, 198),
+//     rgb(133, 226, 238)
+//   );
+// }
 
-.shadows {
-  display: flex;
-  justify-content: space-around;
-}
-.what {
-  width: 250px;
-  height: 20px;
-  border-radius: 50%;
-  background-image: radial-gradient(
-    rgba(19, 39, 65, 0.219),
-    rgba(37, 56, 82, 0.144),
-    rgba(77, 101, 129, 0)
-  );
-}
-
-.story {
-  width: 250px;
-  height: 20px;
-  border-radius: 50%;
-  background-image: radial-gradient(
-    rgba(19, 39, 65, 0.219),
-    rgba(37, 56, 82, 0.144),
-    rgba(77, 101, 129, 0)
-  );
-}
-
-.touch {
-  width: 350px;
-  height: 20px;
-  border-radius: 50%;
-  background-image: radial-gradient(
-    rgba(19, 39, 65, 0.219),
-    rgba(37, 56, 82, 0.144),
-    rgba(77, 101, 129, 0)
-  );
-}
+// .words {
+//   margin-top: 5em;
+//   flex-wrap: wrap;
+//   font-family: "Arimo", sans-serif;
+//   color: white;
+//   letter-spacing: 0em;
+//   display: flex;
+//   justify-content: space-around;
+//   z-index: 3;
+// }
+// .Links {
+//   margin-top: 0;
+//   padding-top: 0;
+//   color: white;
+//   text-decoration-line: none;
+//   &:hover {
+//     color: rgb(237, 168, 10);
+//   }
+// }
+// .shadows {
+//   display: flex;
+//   justify-content: space-around;
+// }
+// .whatshadow {
+//   margin-bottom: 1em;
+//   z-index: 3;
+//   width: 250px;
+//   height: 20px;
+//   border-radius: 50%;
+//   background-image: radial-gradient(
+//     rgba(19, 39, 65, 0.219),
+//     rgba(37, 56, 82, 0.144),
+//     rgba(77, 101, 129, 0)
+//   );
+// }
+// .storyshadow {
+//   z-index: 3;
+//   width: 250px;
+//   height: 20px;
+//   border-radius: 50%;
+//   background-image: radial-gradient(
+//     rgba(19, 39, 65, 0.219),
+//     rgba(37, 56, 82, 0.144),
+//     rgba(77, 101, 129, 0)
+//   );
+// }
+// .touchshadow {
+//   z-index: 3;
+//   width: 350px;
+//   height: 20px;
+//   border-radius: 50%;
+//   background-image: radial-gradient(
+//     rgba(19, 39, 65, 0.219),
+//     rgba(37, 56, 82, 0.144),
+//     rgba(77, 101, 129, 0)
+//   );
+// }
 
 @media only screen and (min-width: 500px) {
   .home {
+    width: 100vw;
     border-top: solid 4px rgb(102, 187, 198);
     display: flex;
     flex-direction: column;
@@ -117,8 +166,8 @@
   .toppage {
     z-index: -1;
     background-color: rgb(102, 187, 198);
-    height: 40vh;
-    width: 100%;
+    height: 43vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,16 +217,16 @@
   }
   .portraitbox {
     grid-area: portraitbox;
-    margin-top: 44vh;
+    margin-top: 45vh;
     z-index: 2;
-    height: 6.5em;
+    height: 6.7em;
     width: 6em;
     border: 5px solid rgb(237, 168, 10);
     border-radius: 10px;
   }
   .portrait {
     z-index: 2;
-    height: 6.5em;
+    height: 6.7em;
     width: 6em;
   }
 
@@ -197,7 +246,7 @@
   .bottompage {
     z-index: -2;
     height: 48vh;
-    width: 100%;
+    width: 100vw;
     background-image: linear-gradient(
       to right,
       rgb(102, 187, 198),
@@ -206,10 +255,8 @@
   }
 
   .pictureshadow {
-    margin-top: 1.6em;
-    margin-right: 0;
-    padding-right: 0;
-    margin-left: 2.8em;
+    margin-top: 15vh;
+    margin-left: 10vw;
     z-index: 3;
     width: 150px;
     height: 10px;
@@ -222,14 +269,12 @@
   }
 
   .introshadow {
-    margin-left: 0;
-    padding-left: 0;
-    margin-top: 1.5em;
+    margin-top: 15vh;
     z-index: 3;
-    width: 500px;
+    width: 550px;
     height: 10px;
     border-radius: 50%;
-    margin-right: 2.8em;
+    margin-right: 13vw;
     background-image: radial-gradient(
       rgba(19, 39, 65, 0.219),
       rgba(37, 56, 82, 0.144),
@@ -239,20 +284,30 @@
   .words {
     flex-wrap: wrap;
     font-family: "Arimo", sans-serif;
-    color: white;
-    letter-spacing: 0em;
     display: flex;
     justify-content: space-around;
     z-index: 3;
+  }
+  .Links {
+    font-size: 2em;
+    color: white;
+    text-decoration-line: none;
+    &:hover {
+      color: rgb(237, 168, 10);
+    }
   }
   .shadows {
     display: flex;
+    width: 100vw;
     justify-content: space-around;
   }
-  .what .story {
+  .whatido {
+    margin-top: 6vh;
+  }
+  .whatshadow {
     z-index: 3;
-    width: 250px;
-    height: 20px;
+    width: 200px;
+    height: 16px;
     border-radius: 50%;
     background-image: radial-gradient(
       rgba(19, 39, 65, 0.219),
@@ -260,11 +315,10 @@
       rgba(77, 101, 129, 0)
     );
   }
-
-  .touch {
+  .storyshadow {
     z-index: 3;
-    width: 350px;
-    height: 20px;
+    width: 200px;
+    height: 16px;
     border-radius: 50%;
     background-image: radial-gradient(
       rgba(19, 39, 65, 0.219),
@@ -272,13 +326,16 @@
       rgba(77, 101, 129, 0)
     );
   }
-}
-.Links {
-  margin-top: 0;
-  padding-top: 0;
-  color: white;
-  text-decoration-line: none;
-  &:hover {
-    color: rgb(237, 168, 10);
+  .touchshadow {
+    z-index: 3;
+    width: 270px;
+    height: 16px;
+    margin-left: 0;
+    border-radius: 50%;
+    background-image: radial-gradient(
+      rgba(19, 39, 65, 0.219),
+      rgba(37, 56, 82, 0.144),
+      rgba(77, 101, 129, 0)
+    );
   }
 }

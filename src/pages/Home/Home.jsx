@@ -29,8 +29,7 @@ class Home extends Component {
               <img src={sideportrait} className={styles.portrait} />
             </section>
             <p className={styles.intro}>
-              Front-End Web Developer with a Bachelor's degree in Business and
-              Marketing.{" "}
+              Front-End Web Developer with a degree in Business and Marketing.{" "}
             </p>
           </article>
         </div>
@@ -54,9 +53,9 @@ class Home extends Component {
             </Link>
           </section>
           <section className={styles.shadows}>
-            <div className={styles.what} />
-            <div className={styles.story} />
-            <div className={styles.touch} />
+            <div className={styles.whatshadow} />
+            <div className={styles.storyshadow} />
+            <div className={styles.touchshadow} />
           </section>
         </div>
       </div>
