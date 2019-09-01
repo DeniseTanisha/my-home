@@ -1,43 +1,78 @@
-.getInTouch {
-  border-top: solid 4px rgb(134, 167, 208);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+@media only screen and (min-width: 500px) {
+  .getInTouch {
+    border-top: solid 4px rgb(134, 167, 208);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.toppage {
-  background-color: rgb(134, 167, 208);
-  height: 50vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 15px 15px 10px rgb(134, 167, 208);
-}
+  .toppage {
+    background-color: rgb(134, 167, 208);
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px 15px 10px rgb(134, 167, 208);
+  }
 
-.logo {
-  padding-top: 7rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-}
+  .logo {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 4.2em;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: absolute;
+  }
 
-.developer {
-  flex-wrap: wrap;
-  font-family: "Arimo", sans-serif;
-  font-size: 6rem;
-  font-weight: 800;
-  color: rgba(85, 123, 173, 0.76);
-}
+  .title {
+    font-family: "Arimo", sans-serif;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.623);
+    letter-spacing: 0.1em;
+  }
 
-.bottompage {
-  z-index: -2;
-  height: 37vh;
-  width: 100vw;
-  background-image: linear-gradient(
-    to right,
-    rgb(134, 167, 208),
-    rgb(174, 205, 243)
-  );
+  .ele {
+    height: 4rem;
+  }
+
+  .developer {
+    flex-wrap: wrap;
+    font-family: "Arimo", sans-serif;
+    margin-top: 30vh;
+    font-size: 6em;
+    font-weight: 800;
+    color: rgba(85, 123, 173, 0.466);
+  }
+
+  .bottompage {
+    z-index: -2;
+    height: 37vh;
+    width: 100vw;
+    background-image: linear-gradient(
+      to right,
+      rgb(134, 167, 208),
+      rgb(174, 205, 243)
+    );
+  }
+
+  .bottompage {
+    text-align: center;
+  }
+
+  .contactdetails {
+    margin-top: 1vh;
+    font-size: 2em;
+    color: white;
+    > a {
+      color: white;
+      text-decoration-line: none;
+      :hover {
+        cursor: pointer;
+      }
+    }
+  }
 }
