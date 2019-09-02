@@ -4,6 +4,7 @@ import NavBar from "../../NavBar";
 import styles from "./whatIDo.module.scss";
 import hedira from "../../assets/hedira.png";
 import elephant from "../../assets/elephant.png";
+import tugofwar from "../../assets/tugofwar.png";
 
 class whatIDo extends Component {
   state = {};
@@ -27,10 +28,58 @@ class whatIDo extends Component {
         </div>
 
         <div className={styles.bottompage}>
-          <article>
-            <img src={hedira} />
-          </article>
-          {/* <card className={styles.web}>Web developer</card> */}
+          <section className={styles.portfolio}>
+            <article className={styles.projectbox}>
+              <img className={styles.projectsnip} src={hedira} alt="" />
+              <p className={styles.description}>
+                <ul className={styles.description}>
+                  <li>Group Project</li>
+                  <li> React App </li>
+                  <li> SCSS</li>
+                  <li> HTML5</li>
+                  <li>Authentication</li>
+                  <li>Friebase storage</li>
+                  <li>
+                    {" "}
+                    <a href="https://app.hedira.io/welcome">
+                      Check It out
+                    </a>{" "}
+                  </li>
+                </ul>
+              </p>
+            </article>
+
+            <article className={styles.projectboxtugofwar}>
+              <img className={styles.projectsnip} src={tugofwar} alt="" />
+              <p className={styles.description}>
+                <ul className={styles.description}>
+                  <li>Personal Project</li>
+                  <li>Single Page Project</li>
+                  <li> HTML5</li>
+                  <li> JavaScript</li>
+                  <li> CSS </li>
+                  <li>
+                    <a
+                      href="https://app.hedira.io/welcome"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {"Check It out"}
+                    </a>{" "}
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/DeniseTanisha/tug-of-war"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {"Check out the code"}
+                    </a>{" "}
+                  </li>
+                </ul>
+              </p>
+            </article>
+          </section>
         </div>
       </div>
     );

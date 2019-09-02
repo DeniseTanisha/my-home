@@ -46,7 +46,7 @@
   font-family: "Arimo", sans-serif;
   font-size: 6em;
   font-weight: 800;
-  color: rgb(255, 103, 97);
+  color: rgba(255, 102, 97, 0.561);
 }
 
 .bottompage {
@@ -58,4 +58,39 @@
     rgb(204, 80, 75),
     rgb(251, 130, 126)
   );
+}
+
+.projectsnip {
+  z-index: 4;
+  height: 12em;
+  width: auto;
+  border-radius: 5px;
+}
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+}
+.projectbox {
+  background-color: bisque;
+  z-index: 4;
+  width: 25em;
+  height: 12em;
+  margin-top: 4vh;
+  border-radius: 5px;
+  margin-left: 2vw;
+  display: flex;
+}
+.description {
+  list-style: none;
+}
+
+.projectboxtugofwar {
+  background-color: bisque;
+  z-index: 4;
+  width: 35em;
+  height: 12em;
+  margin-top: 4vh;
+  border-radius: 5px;
+  margin-left: 2vw;
+  display: flex;
 }
