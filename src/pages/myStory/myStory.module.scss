@@ -1,19 +1,19 @@
 .myStory {
-  border-top: solid 4px rgb(134, 167, 208);
+  border-top: solid 4px rgb(237, 168, 10);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .toppage {
-  background-color: rgb(134, 167, 208);
+  background-color: rgb(237, 168, 10);
   height: 50vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 15px 15px 10px rgb(134, 167, 208);
+  box-shadow: 15px 15px 10px rgb(237, 168, 10);
 }
 
 .logo {
@@ -28,7 +28,7 @@
   font-family: "Arimo", sans-serif;
   font-size: 6rem;
   font-weight: 800;
-  color: rgba(85, 123, 173, 0.76);
+  color: rgb(192, 136, 6);
 }
 
 .bottompage {
@@ -37,7 +37,7 @@
   width: 100vw;
   background-image: linear-gradient(
     to right,
-    rgb(134, 167, 208),
-    rgb(174, 205, 243)
+    rgb(237, 168, 10),
+    rgb(253, 208, 104)
   );
 }

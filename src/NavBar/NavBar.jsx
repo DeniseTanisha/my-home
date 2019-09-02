@@ -20,7 +20,7 @@ class NavBar extends Component {
           <li>
             <Link className={styles.Links} to="/">
               Home
-            </Link>{" "}
+            </Link>
           </li>
           <li>
             <Link className={styles.Links} to="whatIDo">

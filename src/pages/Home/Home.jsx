@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import styles from "./Home.module.scss";
 import NavBar from "../../NavBar";
 import elephant from "../../assets/elephant.png";
+import sideportrait from "../../assets/sideportrait.jpg";
+import { Link } from "@reach/router";
 
 class Home extends Component {
   state = {};
@@ -22,18 +24,38 @@ class Home extends Component {
           <section className={styles.developer}>
             <p>WEB DEVELOPER</p>
           </section>
+          <article className={styles.bio}>
+            <section className={styles.portraitbox}>
+              <img src={sideportrait} className={styles.portrait} />
+            </section>
+            <p className={styles.intro}>
+              Front-End Web Developer with a degree in Business and Marketing.{" "}
+            </p>
+          </article>
         </div>
 
         <div className={styles.bottompage}>
           <section className={styles.words}>
-            <p className={styles.whatido}>WHAT I DO</p>
-            <p className={styles.mystory}>MY STORY</p>
-            <p className={styles.getintouch}>GET IN TOUCH</p>
+            <div className={styles.pictureshadow} />
+            <div className={styles.introshadow} />
+          </section>
+          <section className={styles.words}>
+            <p className={styles.whatido}>
+              <Link className={styles.Links} to="whatIDo">
+                WHAT I DO
+              </Link>
+            </p>
+            <Link className={styles.Links} to="myStory">
+              <p className={styles.mystory}>MY STORY</p>
+            </Link>
+            <Link className={styles.Links} to="getInTouch">
+              <p className={styles.getintouch}>GET IN TOUCH</p>
+            </Link>
           </section>
           <section className={styles.shadows}>
-            <div className={styles.what} />
-            <div className={styles.story} />
-            <div className={styles.touch} />
+            <div className={styles.whatshadow} />
+            <div className={styles.storyshadow} />
+            <div className={styles.touchshadow} />
           </section>
         </div>
       </div>
