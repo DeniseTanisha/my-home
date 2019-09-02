@@ -1,4 +1,5 @@
 .whatIDo {
+  z-index: -2;
   border-top: solid 4px rgb(134, 167, 208);
   display: flex;
   flex-direction: column;
@@ -38,7 +39,7 @@
   height: 4rem;
 }
 
-.developer {
+.heading {
   z-index: -1;
   margin-top: 15vh;
   position: absolute;
@@ -72,7 +73,7 @@
 }
 .projectbox {
   background-color: bisque;
-  z-index: 4;
+  z-index: 2;
   width: 25em;
   height: 12em;
   margin-top: 4vh;
@@ -82,6 +83,10 @@
 }
 .description {
   list-style: none;
+  color: black;
+  a {
+    position: relative;
+  }
 }
 
 .projectboxtugofwar {

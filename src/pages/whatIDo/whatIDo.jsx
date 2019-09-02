@@ -10,9 +10,9 @@ class whatIDo extends Component {
   state = {};
   render() {
     return (
-      <div className={styles.whatIDo}>
+      <article className={styles.whatIDo}>
         <NavBar />
-        <div className={styles.toppage}>
+        <section className={styles.toppage}>
           <div className={styles.logo}>
             <span>
               <img src={elephant} className={styles.ele} alt="" />{" "}
@@ -22,10 +22,10 @@ class whatIDo extends Component {
               <h1 className={styles.title}>Denise Stubbs</h1>{" "}
             </span>
           </div>
-          <section className={styles.developer}>
+          <heading className={styles.heading}>
             <p> WHAT I DO</p>
-          </section>
-        </div>
+          </heading>
+        </section>
 
         <div className={styles.bottompage}>
           <section className={styles.portfolio}>
@@ -40,10 +40,7 @@ class whatIDo extends Component {
                   <li>Authentication</li>
                   <li>Friebase storage</li>
                   <li>
-                    {" "}
-                    <a href="https://app.hedira.io/welcome">
-                      Check It out
-                    </a>{" "}
+                    <a href="https://app.hedira.io/welcome">Check It out</a>
                   </li>
                 </ul>
               </p>
@@ -81,7 +78,7 @@ class whatIDo extends Component {
             </article>
           </section>
         </div>
-      </div>
+      </article>
     );
   }
 }
