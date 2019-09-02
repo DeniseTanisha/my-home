@@ -7,7 +7,7 @@
 
 .toppage {
   background-color: rgb(237, 168, 10);
-  height: 50vh;
+  height: 43vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -17,23 +17,43 @@
 }
 
 .logo {
-  padding-top: 7rem;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 4.2em;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  position: absolute;
+}
+
+.title {
+  font-family: "Arimo", sans-serif;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.623);
+  letter-spacing: 0.1em;
+}
+
+.ele {
+  height: 4rem;
 }
 
 .developer {
+  position: absolute;
+  margin-top: 15vh;
   flex-wrap: wrap;
   font-family: "Arimo", sans-serif;
-  font-size: 6rem;
+  font-size: 6em;
   font-weight: 800;
-  color: rgb(192, 136, 6);
+  color: rgba(192, 136, 6, 0.678);
 }
 
 .bottompage {
+  color: white;
+  font-size: 2em;
+  text-align: center;
   z-index: -2;
-  height: 37vh;
+  height: 48vh;
   width: 100vw;
   background-image: linear-gradient(
     to right,

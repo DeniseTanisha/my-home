@@ -28,6 +28,7 @@ class getInTouch extends Component {
           <section className={styles.contact}>
             <div className={styles.contactdetails}>
               <i class="fa fa-envelope" aria-hidden="true">
+                {" "}
                 denise_stubbs@hotmail.co.uk
               </i>
             </div>

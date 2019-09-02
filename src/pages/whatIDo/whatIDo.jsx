@@ -3,6 +3,7 @@ import { Link } from "@reach/router";
 import NavBar from "../../NavBar";
 import styles from "./whatIDo.module.scss";
 import hedira from "../../assets/hedira.png";
+import elephant from "../../assets/elephant.png";
 
 class whatIDo extends Component {
   state = {};
@@ -11,6 +12,15 @@ class whatIDo extends Component {
       <div className={styles.whatIDo}>
         <NavBar />
         <div className={styles.toppage}>
+          <div className={styles.logo}>
+            <span>
+              <img src={elephant} className={styles.ele} alt="" />{" "}
+            </span>
+            <span>
+              {" "}
+              <h1 className={styles.title}>Denise Stubbs</h1>{" "}
+            </span>
+          </div>
           <section className={styles.developer}>
             <p> WHAT I DO</p>
           </section>

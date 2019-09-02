@@ -29,7 +29,8 @@ class Home extends Component {
               <img src={sideportrait} className={styles.portrait} />
             </section>
             <p className={styles.intro}>
-              Front-End Web Developer with a degree in Business and Marketing.{" "}
+              Front-End Web Developer with a degree in Business Management and
+              Marketing.{" "}
             </p>
           </article>
         </div>
